@@ -1,0 +1,56 @@
+{
+  "value": [
+    {
+      "id": "/subscriptions/8ec70249-6413-4a41-81a1-3f803650b44b/resourceGroups/Litware/providers/Microsoft.Compute/disks/yadose-test01_OsDisk_1_2f95f087db74424482c8b64fc58ff0ad",
+      "name": "yadose-test01_OsDisk_1_2f95f087db74424482c8b64fc58ff0ad",
+      "type": "Microsoft.Compute/disks",
+      "sku": {
+        "name": "Premium_LRS",
+        "tier": "Premium"
+      },
+      "managedBy": "/subscriptions/8ec70249-6413-4a41-81a1-3f803650b44b/resourceGroups/Litware/providers/Microsoft.Compute/virtualMachines/yadose-test01",
+      "location": "westeurope",
+      "zones": ["1"]
+    },
+    {
+      "id": "/subscriptions/8ec70249-6413-4a41-81a1-3f803650b44b/resourceGroups/Litware/providers/Microsoft.Compute/virtualMachines/yadose-test01",
+      "name": "yadose-test01",
+      "type": "Microsoft.Compute/virtualMachines",
+      "location": "westeurope",
+      "zones": ["1"],
+      "identity": {
+        "principalId": "d0123196-524e-483f-8352-bc944fd0b217",
+        "tenantId": "5fbae672-fcee-40a3-8c85-7c98274725e3",
+        "type": "SystemAssigned"
+      }
+    },
+    {
+      "id": "/subscriptions/8ec70249-6413-4a41-81a1-3f803650b44b/resourceGroups/Litware/providers/Microsoft.Compute/virtualMachines/yadose-test01/extensions/AzureMonitorWindowsAgent",
+      "name": "yadose-test01/AzureMonitorWindowsAgent",
+      "type": "Microsoft.Compute/virtualMachines/extensions",
+      "location": "westeurope"
+    },
+    {
+      "id": "/subscriptions/8ec70249-6413-4a41-81a1-3f803650b44b/resourceGroups/Litware/providers/Microsoft.DevTestLab/schedules/shutdown-computevm-yadose-test01",
+      "name": "shutdown-computevm-yadose-test01",
+      "type": "Microsoft.DevTestLab/schedules",
+      "location": "westeurope"
+    },
+    {
+      "id": "/subscriptions/8ec70249-6413-4a41-81a1-3f803650b44b/resourceGroups/Litware/providers/Microsoft.Insights/dataCollectionRules/Contoso-Common-Perf-Collection",
+      "name": "Contoso-Common-Perf-Collection",
+      "type": "Microsoft.Insights/dataCollectionRules",
+      "kind": "Windows",
+      "location": "westeurope",
+      "tags": {},
+      "systemData": {
+        "createdBy": "yadoseuclu@hotmail.com",
+        "createdByType": "User",
+        "createdAt": "2022-09-26T09:06:57.1123634Z",
+        "lastModifiedBy": "yadoseuclu@hotmail.com",
+        "lastModifiedByType": "User",
+        "lastModifiedAt": "2022-09-26T09:06:57.1123634Z"
+      }
+    }
+  ]
+}
